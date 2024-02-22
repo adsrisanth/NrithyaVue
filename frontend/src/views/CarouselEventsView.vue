@@ -3,38 +3,25 @@ import { EventsData } from '../data/events';
 import { useRouter } from 'vue-router';
 
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 const options = {
-  rewind: true,
-  autoplay: 3000,
   perPage: 3,
-  perMove: 1,
   gap: '3rem',
   type: 'slide',
-  rewindSpeed: false,
-  autoplayDelay: false,
   arrows: true,
   pagination: false,
-  extensions: { AutoScroll },
-  interval: 1000,
-  autoScroll: {
-    speed: 800,
-    pauseOnHover: true,
-    pauseOnFocus: false,
-  },
   breakpoints: {
-    725: { perPage:  EventsData.length>1 ?1 : EventsData.length , autoplay: EventsData.length > 1 },
-    1056: { perPage: EventsData.length>2 ?2 : EventsData.length , autoplay: EventsData.length > 2},
-    1350: { perPage: EventsData.length>3 ?3 : EventsData.length , autoplay: EventsData.length > 3},
-    1700: { perPage: EventsData.length>4 ?4 : EventsData.length , autoplay: EventsData.length > 4},
-    2000: { perPage: EventsData.length>5 ?5 : EventsData.length , autoplay: EventsData.length > 5},
-    2500: { perPage: EventsData.length>5 ?5 : EventsData.length , autoplay: EventsData.length > 5},
-    3500: { perPage: EventsData.length>6 ?6 : EventsData.length , autoplay: EventsData.length > 6},
-    4500: { perPage: EventsData.length>7 ?7 : EventsData.length , autoplay: EventsData.length > 7},
-    5500: { perPage: EventsData.length>8 ?8 : EventsData.length , autoplay: EventsData.length > 8},
-    6500: { perPage: EventsData.length>9 ?9 : EventsData.length , autoplay: EventsData.length > 9},
-    7500: { perPage: EventsData.length>10 ?10 : EventsData.length, autoplay: EventsData.length > 10},
+    725: { perPage:  EventsData.length>1 ?1 : EventsData.length},
+    1056: { perPage: EventsData.length>2 ?2 : EventsData.length },
+    1350: { perPage: EventsData.length>3 ?3 : EventsData.length },
+    1700: { perPage: EventsData.length>4 ?4 : EventsData.length },
+    2000: { perPage: EventsData.length>5 ?5 : EventsData.length },
+    2500: { perPage: EventsData.length>5 ?5 : EventsData.length },
+    3500: { perPage: EventsData.length>6 ?6 : EventsData.length },
+    4500: { perPage: EventsData.length>7 ?7 : EventsData.length },
+    5500: { perPage: EventsData.length>8 ?8 : EventsData.length },
+    6500: { perPage: EventsData.length>9 ?9 : EventsData.length },
+    7500: { perPage: EventsData.length>10 ?10 : EventsData.length},
   },
 };
 const router = useRouter()

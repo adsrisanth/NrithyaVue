@@ -127,7 +127,7 @@ const teams = [
                     },
                     {
                         name:'Shaik Arshad',
-                        image:'https://i.postimg.cc/VL67rFYX/aishwariya.png',
+                        image:'https://i.postimg.cc/CLw3sLLH/Arshad.jpg',
                     }
                 ]
             }

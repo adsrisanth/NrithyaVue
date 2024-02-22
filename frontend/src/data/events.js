@@ -2,7 +2,7 @@ export const EventsData = [
   {
     index: 0,
     title: 'Mudra { Classical Solo }',
-    poster: '',
+    poster: 'https://i.postimg.cc/q08cxSdn/mudra.jpg',
     image:
       'https://i.postimg.cc/6BLHcdTp/mudra-Classical-solo.jpg',
       
@@ -66,7 +66,7 @@ export const EventsData = [
   {
     index: 2,
     title: 'Regional Rhythm Revival { Folk Group }',
-    poster: '',
+    poster: 'https://i.postimg.cc/wqDNFynH/RRR-3x.jpg',
     image:
       'https://i.postimg.cc/w6qwG7sc/RRR-Folk-group.jpg',
     description: 'Folk dances are an integral part of a cultures identity and history. They often convey stories, rituals, and customs unique to a particular region or community. Different regions and ethnic groups within a country may have their own distinct folk dances, each with its own unique style and movements. Folk dances are usually accompanied by traditional music, which plays a crucial role in setting the tempo and mood of the dance. The music is often performed using traditional instruments specific to the culture. Folk dances are typically performed by groups of people, promoting a sense of community and togetherness. Folk dances play a crucial role in preserving and passing down cultural traditions from one generation to the next.',
@@ -160,7 +160,7 @@ export const EventsData = [
   {
     index: 4,
     title: 'LIGHTS CAMERA DANCE { Filmy (Group) }',
-    poster: '',
+    poster: 'https://i.postimg.cc/CSg7yY4m/filmy-group-3-1.jpg',
     image:
       'https://i.postimg.cc/S45GWZVG/Lights-camera-dance-cine-beats-group.jpg',
     description: 'The "Filmy Group" competition within "Nrithya" is an exhilarating showcase of teamwork and creativity, where groups of students come together to pay tribute to their favourite actors and actresses through dynamic group dance performances. This competition adds a unique and entertaining twist to the world of dance by combining impersonation and choreography. ',
@@ -195,7 +195,7 @@ export const EventsData = [
   {
     index: 5,
     title: 'No. 1 { Filmy (Solo) }',
-    poster: 'The "No. 1" competition within "Nrithya" is a unique and entertaining event where participants have the opportunity to pay tribute to their favourite actors and actresses by imitating them and dancing to their iconic songs. This competition celebrates the fusion of film and dance, allowing students to showcase their acting skills and dancing prowess while bringing beloved movie characters to life. Participants take on the roles of iconic actors and actresses, infusing their performances with the charisma and charm of these film legends. ',
+    poster: 'https://i.postimg.cc/5fPSFzWR/filmy-solo-3.jpg',
     image:
       'https://i.postimg.cc/PXBzTxN7/No-1-Cine-beats-solo-3x.jpg',
     description: 'The "No. 1" competition within "Nrithya" is a unique and entertaining event where participants have the opportunity to pay tribute to their favourite actors and actresses by imitating them and dancing to their iconic songs. This competition celebrates the fusion of film and dance, allowing students to showcase their acting skills and dancing prowess while bringing beloved movie characters to life. Participants take on the roles of iconic actors and actresses, infusing their performances with the charisma and charm of these film legends. ',
@@ -228,7 +228,7 @@ export const EventsData = [
   {
     index: 6,
     title: 'SIZZLE AND SHAKE { Western & Mass (Group) }',
-    poster: '',
+    poster: 'https://i.postimg.cc/CSsNStPY/sizzle-and-shake-western-mass-3x.jpg',
     duration: '2 hours',
     image:
       'https://i.postimg.cc/qk11V4sf/sizzle-and-shake-western-and-mass-group.jpg',
@@ -264,7 +264,7 @@ export const EventsData = [
   {
     index: 7,
     title: 'Double Dash { Duet Category }',
-    poster: '',
+    poster: 'https://i.postimg.cc/LHcfzBCN/double-dash.jpg',
     image:
       'https://i.postimg.cc/cx6Xd2hv/Double-Dash-Duet.jpg',
     description: 'Duet dances hold importance in the dance world because they celebrate the beauty of collaboration, emotional expression, technical skill, and artistic innovation. The synchronization, trust, and communication necessary for a successful duet performance can build strong bonds between the dancers. They offer a platform for dancers to connect with each other, the audience, and the broader dance community, making them a valuable and cherished part of the performing arts. The symmetry, balance, and coordination of a duet can captivate the audience and leave a lasting impression.',
@@ -365,7 +365,7 @@ export const EventsData = [
   {
     index: 10,
     title: 'BEAT BREAKERS{ Street Dance (Group) }',
-    poster: '',
+    poster: 'https://i.postimg.cc/fs15KYS4/beat-breakers-street-dance.jpg',
     duration: '2 hours',
     image:
       'https://i.postimg.cc/mLcNvMZM/beat-breakers-Street-Style-Group.jpg',
